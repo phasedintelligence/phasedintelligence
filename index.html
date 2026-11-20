@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Phased Intelligence - smartphones, accessories, and mobile technology.">
+  <title>Phased Intelligence | Mobile Technology</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="topbar">FREE U.S. SHIPPING ON ORDERS OVER $100</div>
+
+  <header class="header">
+    <a class="logo" href="#home">
+      <span class="logo-mark">PI</span>
+      <span>PHASED INTELLIGENCE</span>
+    </a>
+
+    <nav id="nav">
+      <a href="#phones">Phones</a>
+      <a href="#accessories">Accessories</a>
+      <a href="#about">About</a>
+      <a href="#contact">Support</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="search-btn" aria-label="Search">⌕</button>
+      <button class="cart-btn">Cart <span id="cartCount">0</span></button>
+      <button class="menu-btn" id="menuBtn">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-bg"></div>
+      <div class="hero-content">
+        <p class="eyebrow">MOBILE TECHNOLOGY, REFINED.</p>
+        <h1>Smart devices.<br>Smarter choices.</h1>
+        <p class="hero-text">
+          Discover modern smartphones, essential accessories, and connected technology
+          selected for performance, design, and everyday life.
+        </p>
+        <div class="hero-buttons">
+          <a href="#phones" class="btn btn-primary">Shop Phones</a>
+          <a href="#about" class="btn btn-secondary">Explore the Brand</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="phone-mockup">
+          <div class="phone-camera"></div>
+          <div class="phone-screen">
+            <span>PHASED</span>
+            <strong>INTELLIGENCE</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats">
+      <div><strong>Fast</strong><span>Shipping</span></div>
+      <div><strong>Secure</strong><span>Checkout</span></div>
+      <div><strong>30-Day</strong><span>Returns</span></div>
+      <div><strong>Expert</strong><span>Support</span></div>
+    </section>
+
+    <section class="section" id="phones">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow dark">FEATURED SMARTPHONES</p>
+          <h2>Built for the way you move.</h2>
+        </div>
+        <div class="filters">
+          <button class="filter active" data-filter="all">All</button>
+          <button class="filter" data-filter="premium">Premium</button>
+          <button class="filter" data-filter="value">Value</button>
+        </div>
+      </div>
+
+      <div class="product-grid">
+        <article class="product-card" data-category="premium">
+          <div class="product-visual blue-phone">
+            <span class="badge">NEW</span>
+            <div class="mini-phone">
+              <span class="camera camera1"></span>
+              <span class="camera camera2"></span>
+              <span class="camera camera3"></span>
+            </div>
+          </div>
+          <div class="product-meta">
+            <div>
+              <h3>Nova X Pro</h3>
+              <p>256GB · 5G · Midnight Blue</p>
+            </div>
+            <strong>$899</strong>
+          </div>
+          <button class="add-btn" data-name="Nova X Pro">Add to Cart</button>
+        </article>
+
+        <article class="product-card" data-category="premium">
+          <div class="product-visual graphite-phone">
+            <span class="badge">BESTSELLER</span>
+            <div class="mini-phone">
+              <span class="camera camera1"></span>
+              <span class="camera camera2"></span>
+              <span class="camera camera3"></span>
+            </div>
+          </div>
+          <div class="product-meta">
+            <div>
+              <h3>Vertex Ultra</h3>
+              <p>512GB · 5G · Graphite</p>
+            </div>
+            <strong>$1,099</strong>
+          </div>
+          <button class="add-btn" data-name="Vertex Ultra">Add to Cart</button>
+        </article>
+
+        <article class="product-card" data-category="value">
+          <div class="product-visual silver-phone">
+            <div class="mini-phone">
+              <span class="camera camera1"></span>
+              <span class="camera camera2"></span>
+            </div>
+          </div>
+          <div class="product-meta">
+            <div>
+              <h3>Pulse 5G</h3>
+              <p>128GB · 5G · Silver</p>
+            </div>
+            <strong>$499</strong>
+          </div>
+          <button class="add-btn" data-name="Pulse 5G">Add to Cart</button>
+        </article>
+
+        <article class="product-card" data-category="value">
+          <div class="product-visual violet-phone">
+            <div class="mini-phone">
+              <span class="camera camera1"></span>
+              <span class="camera camera2"></span>
+            </div>
+          </div>
+          <div class="product-meta">
+            <div>
+              <h3>Orbit Lite</h3>
+              <p>128GB · 5G · Violet</p>
+            </div>
+            <strong>$349</strong>
+          </div>
+          <button class="add-btn" data-name="Orbit Lite">Add to Cart</button>
+        </article>
+      </div>
+    </section>
+
+    <section class="feature-banner">
+      <div class="feature-copy">
+        <p class="eyebrow">PERFORMANCE WITHOUT THE NOISE</p>
+        <h2>Technology that fits your everyday.</h2>
+        <p>
+          From fast 5G connectivity to all-day battery life, we focus on the features
+          that make a real difference.
+        </p>
+        <a href="#accessories">Discover Accessories →</a>
+      </div>
+      <div class="feature-art">
+        <div class="ring ring-one"></div>
+        <div class="ring ring-two"></div>
+        <div class="floating-phone">
+          <div class="fp-screen">PI</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section light" id="accessories">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow dark">EVERYDAY ESSENTIALS</p>
+          <h2>Accessories that complete the setup.</h2>
+        </div>
+      </div>
+
+      <div class="accessory-grid">
+        <article class="accessory-card">
+          <div class="icon-art">◉</div>
+          <h3>Wireless Earbuds</h3>
+          <p>Clear sound, compact charging case, all-day comfort.</p>
+          <strong>$79</strong>
+          <button class="add-btn" data-name="Wireless Earbuds">Add to Cart</button>
+        </article>
+
+        <article class="accessory-card">
+          <div class="icon-art">⚡</div>
+          <h3>Fast Charger 45W</h3>
+          <p>Compact USB-C charging for phones and compatible devices.</p>
+          <strong>$39</strong>
+          <button class="add-btn" data-name="Fast Charger 45W">Add to Cart</button>
+        </article>
+
+        <article class="accessory-card">
+          <div class="icon-art">▣</div>
+          <h3>Protective Case</h3>
+          <p>Slim profile with everyday drop and scratch protection.</p>
+          <strong>$29</strong>
+          <button class="add-btn" data-name="Protective Case">Add to Cart</button>
+        </article>
+
+        <article class="accessory-card">
+          <div class="icon-art">⌁</div>
+          <h3>10,000mAh Power Bank</h3>
+          <p>Portable backup power with USB-C fast charging.</p>
+          <strong>$59</strong>
+          <button class="add-btn" data-name="Power Bank">Add to Cart</button>
+        </article>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-left">
+        <p class="eyebrow">ABOUT PHASED INTELLIGENCE</p>
+        <h2>Modern mobile technology, made easier.</h2>
+      </div>
+      <div class="about-right">
+        <p>
+          Phased Intelligence is focused on helping customers discover reliable mobile
+          technology without unnecessary complexity.
+        </p>
+        <p>
+          We select smartphones, accessories, and connected devices around performance,
+          design, value, and everyday usability.
+        </p>
+        <div class="about-points">
+          <span>01 / Quality-focused selection</span>
+          <span>02 / Modern design</span>
+          <span>03 / Customer-first support</span>
+          <span>04 / Simple shopping experience</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="newsletter" id="contact">
+      <div>
+        <p class="eyebrow">STAY CONNECTED</p>
+        <h2>Get product updates and special offers.</h2>
+        <p>Join our list for new releases, technology updates, and exclusive promotions.</p>
+      </div>
+      <form id="newsletterForm">
+        <input id="email" type="email" placeholder="Enter your email address" required>
+        <button type="submit">Join</button>
+      </form>
+      <p id="formMessage" class="form-message"></p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-grid">
+      <div>
+        <a class="logo footer-logo" href="#home">
+          <span class="logo-mark">PI</span>
+          <span>PHASED INTELLIGENCE</span>
+        </a>
+        <p class="footer-description">Mobile technology for a smarter everyday experience.</p>
+      </div>
+      <div>
+        <h4>Shop</h4>
+        <a href="#phones">Smartphones</a>
+        <a href="#accessories">Accessories</a>
+        <a href="#phones">New Arrivals</a>
+      </div>
+      <div>
+        <h4>Support</h4>
+        <a href="#contact">Contact</a>
+        <a href="#">Shipping & Returns</a>
+        <a href="#">Warranty</a>
+        <a href="#">FAQ</a>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <a href="#about">About Us</a>
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Phased Intelligence. All rights reserved.</span>
+      <span>Designed for modern mobile technology.</span>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast">Added to cart</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
